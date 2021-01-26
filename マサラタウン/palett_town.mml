@@ -1,0 +1,62 @@
+#AUTO-BANKSWITCH 0
+
+@v0 = {14 14 12 10 8}
+@v1 = {8 8 6 4 2}
+@v2 = {7 5 3 1 0}
+
+A		@t1,120 @v0  @q1 @1 o6 l8
+B		@t1,120 @v1  @q1 @2 o4 l8
+D		@t1,120 @v2 @q1 o4 l4
+
+
+A		L d c <b a >g e f+ e
+B		L b4 >c d r4 d c
+D		L g. e8 e f+
+A		d4. <b g g a b
+B		<b4 r >d r d c <b
+D		g g8 a8 e g
+A		>c2^8 <f+ g a
+B		r b >c <b @q3 >c4 @q1 r4
+D		e. f+8 e e
+A		b4. >c16 <b16 a2
+B		r <b  >c <a b g a f+
+D		g. e8 e d
+
+A		>d c <b >d g f+ f+ g
+B		b4 >c d r4 d c
+D		g. e8 e f+
+A		e4. d d4 <g f+
+B		@q3 <b4 @q1 r >d^8 d r4
+D		g. a8 e g
+A		>c <b a g >d c <b a
+B		@q3 e4 @q1 d c r <f+ g >c
+D		e. f+8 e a
+A		g2 r g a b
+B		d c <b a @q3 g4 f+4
+D		g. e8 e d
+
+A		>c2 d4. c
+B		@q1 c g e g d a f+ a
+D		l2 c d
+A		<b2^8 g a b
+B		b g d g b g d g
+D		g e4 d4
+A		>c4 c4 d4. c16 d16
+B		c g e g d a f+ a
+D		c d
+A		<b2^8 b a g
+B		b g d g b g b g
+D		g a4 g4
+
+A		a2 e4 b4
+B		a e c e a e c e
+D		l4 e e a e
+A		a2 g4 e4
+B		a e c e a e c e
+D		e e g g
+A		f+2 g4 b4
+B		f+ d c d g e c e
+D		f+ f+ e e
+A		b2 a2
+B		g e c e f+ d c d
+D		e e f+. f+16 f+16
